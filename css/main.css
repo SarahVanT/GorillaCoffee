@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #0a110a;
+    --primary-highlight-color: #233D54;
+    --body-background: #FBF0F6;
+    --body-font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: var(--body-background);
+    color: var(--primary-color);
+    font-family: var(--body-font-family);
+}
+
+.header {
+    z-index: 2;
+}
+
