@@ -5,13 +5,50 @@
     --body-font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
 body {
     background: var(--body-background);
     color: var(--primary-color);
     font-family: var(--body-font-family);
 }
 
+/* 
+*Main Header 
+*/
 .header {
     z-index: 2;
 }
 
+/* 
+*Navigation bar 
+*/
+#navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(255, 255, 255);
+    z-index: 4;
+    
+
+}
+
+.dropdown-nav__closeNavBtn {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    background: rgb(255, 255, 255, 0.6);
+}
+
+.dropdown-nav__container {
+    height: 100vh;
+    padding: 0 1rem;
+}
